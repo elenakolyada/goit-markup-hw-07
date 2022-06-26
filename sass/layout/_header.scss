@@ -1,0 +1,14 @@
+.container-header {
+  display: flex;
+}
+.header {
+  font-size: 16px;
+  line-height: 2;
+  text-align: center;
+  color: rgb(117, 117, 117);
+  border-bottom: 1px solid #ececec;
+}
+.header:hover,
+.header:focus {
+  color: #2196f3;
+}
