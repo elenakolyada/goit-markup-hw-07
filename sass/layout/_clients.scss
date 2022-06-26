@@ -36,11 +36,11 @@
   color: rgba(175, 177, 184, 1);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.clients__link:hover,
-.clients__link:focus {
-  border-color: var(--accent-color);
-  color: #ffffff;
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+    color: #ffffff;
+  }
 }
 .clients__icon {
   align-items: center;
@@ -48,7 +48,9 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.clients__link:hover .clients__icon,
-.clients__link:focus .clients__icon {
+.clients__link,
+.clients__icon:hover,
+.clients__link,
+.clients__icon:focus {
   fill: var(--accent-color);
 }
