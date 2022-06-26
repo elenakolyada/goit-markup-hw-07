@@ -315,12 +315,12 @@ ol {
 .title-logo {
   display: flex;
 } */
-.my-icon {
+/* .my-icon {
   display: inline-block;
   fill: currentColor;
   margin-right: 10px;
   justify-content: center;
-}
+} */
 /*------- skils-------- */
 .hidden {
   position: absolute;
@@ -863,7 +863,7 @@ ol {
 }
 
 /* Modal window */
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   width: 100%;
@@ -1055,4 +1055,4 @@ ol {
 }
 .icon-close-button:hover {
   fill: var(--accent-color);
-}
+} */
