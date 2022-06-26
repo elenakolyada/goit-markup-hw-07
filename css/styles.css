@@ -3,7 +3,7 @@
   --primary-text-color: #212121;
   --accent-color: #2196f3;
 } */
-.body {
+/* .body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: var(--primary-text-color);
@@ -12,7 +12,7 @@
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
+} */
 h1,
 h2,
 h3,
@@ -51,7 +51,7 @@ ol {
   outline: 1px solid red;
 }
 /* ------- header------- */
-.container-header {
+/* .container-header {
   display: flex;
 }
 .header {
@@ -64,10 +64,10 @@ ol {
 .header:hover,
 .header:focus {
   color: #2196f3;
-}
+} */
 
 /*------- navigation------- */
-.nav__item {
+/* .nav__item {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -121,9 +121,9 @@ ol {
   margin-right: 93px;
   padding-top: 24px;
   padding-bottom: 24px;
-}
+} */
 /*------- contacts-------- */
-.contacts {
+/* .contacts {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -177,9 +177,9 @@ ol {
 .connect__item:hover,
 .connect__item:focus {
   color: var(--accent-color);
-}
+} */
 /*------- hero-------- */
-.hero {
+/* .hero {
   max-width: 1600px;
   height: 600px;
   margin-left: auto;
@@ -244,9 +244,9 @@ ol {
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
-.flex-container {
+/* .flex-container {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: -30px;
@@ -320,7 +320,7 @@ ol {
   fill: currentColor;
   margin-right: 10px;
   justify-content: center;
-}
+} */
 /*------- skils-------- */
 .hidden {
   position: absolute;
