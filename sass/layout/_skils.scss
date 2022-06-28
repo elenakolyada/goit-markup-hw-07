@@ -17,11 +17,10 @@
   width: 270px;
   justify-content: space-between;
   margin-right: 30px;
-}
-
-.skils__item:nth-child(4n) {
-  margin-right: 0;
-  margin-bottom: 0;
+  &:nth-child(4n) {
+    margin-right: 0;
+    margin-bottom: 0;
+  }
 }
 
 .skils__icon {
