@@ -4,12 +4,23 @@
   padding-bottom: 32px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 .nav__link {
   display: block;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+  &:active {
+    color: var(--accent-color);
+  }
 }
 
 .nav__link.current::after {
@@ -23,20 +34,6 @@
   bottom: -32px;
 }
 
-.nav__item:hover,
-.nav__item:focus {
-  color: var(--accent-color);
-}
-.nav__link:hover,
-.nav__link:focus {
-  color: var(--accent-color);
-}
-.nav__link:active {
-  color: var(--accent-color);
-}
-.nav__link:active {
-  color: var(--accent-color);
-}
 .nav__list {
   display: flex;
 }

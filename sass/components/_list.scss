@@ -2,7 +2,7 @@
   display: block;
   justify-content: space-between;
   margin-right: 30px;
-}
-.list:nth-child(3n) {
-  margin-right: 0;
+  &:nth-child(3n) {
+    margin-right: 0;
+  }
 }
