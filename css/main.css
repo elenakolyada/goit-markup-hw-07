@@ -391,7 +391,7 @@ ol {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primary-white-color);
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .hero__button {
@@ -418,13 +418,6 @@ ol {
 }
 .hero__button:hover, .hero__button:focus {
   background-color: var(--accent-color);
-}
-
-.hero__overlay {
-  max-width: 1600px;
-  height: 600px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .team {
@@ -539,7 +532,7 @@ ol {
   display: block;
   margin-right: 50px;
 }
-.contacts:nth-child(2n) {
+.contacts:nth-child(3n) {
   margin-right: 0;
 }
 
@@ -592,6 +585,9 @@ ol {
 }
 .nav__item:hover, .nav__item:focus {
   color: var(--accent-color);
+}
+.nav__item:hover:last-child, .nav__item:focus:last-child {
+  margin-right: 0;
 }
 
 .nav__link {

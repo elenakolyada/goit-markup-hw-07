@@ -27,7 +27,7 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primary-white-color);
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .hero__button {
@@ -55,11 +55,4 @@
   &:focus {
     background-color: var(--accent-color);
   }
-}
-
-.hero__overlay {
-  max-width: 1600px;
-  height: 600px;
-  margin-left: auto;
-  margin-right: auto;
 }
