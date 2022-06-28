@@ -530,10 +530,6 @@ ol {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
   display: block;
-  margin-right: 50px;
-}
-.contacts:nth-child(3n) {
-  margin-right: 0;
 }
 
 .connect {
@@ -582,16 +578,16 @@ ol {
   padding-bottom: 32px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  margin-right: 50px;
+}
+.nav__item:nth-last-child(-3n) {
+  margin-right: 0;
 }
 .nav__item:hover, .nav__item:focus {
   color: var(--accent-color);
 }
-.nav__item:hover:last-child, .nav__item:focus:last-child {
-  margin-right: 0;
-}
 
 .nav__link {
-  display: block;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;

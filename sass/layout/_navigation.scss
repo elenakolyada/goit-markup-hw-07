@@ -4,16 +4,16 @@
   padding-bottom: 32px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  margin-right: 50px;
+  &:nth-last-child(-3n) {
+    margin-right: 0;
+  }
   &:hover,
   &:focus {
     color: var(--accent-color);
-    &:last-child {
-      margin-right: 0;
-    }
   }
 }
 .nav__link {
-  display: block;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
