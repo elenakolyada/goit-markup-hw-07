@@ -10,9 +10,11 @@
 }
 .footer__contacts {
   display: block;
+  padding-bottom: 60px;
 }
 .footer__adress {
   display: block;
+
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
@@ -24,13 +26,14 @@
   }
 }
 .footer__logo {
+  display: block;
+  padding-top: 60px;
   margin-bottom: 20px;
   color: var(--primary-white-color);
 }
 
 .footer__link {
   display: block;
-  margin-bottom: 9px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
